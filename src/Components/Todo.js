@@ -23,7 +23,7 @@ export default class  extends Component {
             currTask : '',
         })
     }
-
+    
     handleDelete = (id) => {
         let nTaskArray = this.state.tasks.filter(task =>{
             return task.id !== id;
